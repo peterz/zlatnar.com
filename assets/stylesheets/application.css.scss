@@ -1,0 +1,126 @@
+@import "components/reset";
+
+$turquoise-color: #1abc9c;
+$wet-asphalt-color: #34495e;
+$green-sea-color: #16a085;
+$biege-color: #fdf0ee;
+$foo-color: #f1eeee;
+$asbestos-color: #7f8c8d;
+
+body {
+ 	background: $green-sea-color;
+ 	font-family: 'Whitney A', 'Whitney B';
+ 	font-weight: 400;
+ 	font-style: normal;
+ 	font-size: 20px;
+ 	
+  color: $foo-color;
+ 	line-height: 1.2em;
+}
+
+h1 {
+  text-align: center;
+  margin: 3em auto;
+
+  img {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+  }
+}
+
+h2 {
+  font-size: 40px;
+  text-decoration: none;
+  text-align: center;
+  font-weight: bold;
+}
+
+section {
+	max-width: 640px;
+	margin: 0 auto;	
+}
+
+#title {
+  p {
+    text-align: center;
+    margin: 0.7em 0;
+  }
+}
+
+#description {
+	padding: 1.5em;
+	margin-bottom: 4em;
+
+  a {
+    color: $wet-asphalt-color;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+ul.apps {
+  text-align: center;
+
+  li {
+    width: 32%;
+    display: inline-block;
+
+    @media all and (max-width: 660px) {
+      width: 49%;
+      margin-bottom: 2em;
+
+      &:last {
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  img {
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+  }
+
+  a {
+  	text-decoration: none;
+  	color: $biege-color;
+
+  	span {
+    	display: block;
+
+    	@media all and (max-width: 660px) {
+      		font-size: 0.8em;
+    	}
+  	}	  	
+  }
+
+}
+
+a.hire {
+  background: $wet-asphalt-color;
+  color: $biege-color;
+  display: block;
+  width: 200px;
+  padding: 1em 0;
+  font-size: 40px;
+  text-decoration: none;
+  text-align: center;
+  font-weight: bold;
+  margin: 2em auto;
+
+  &:hover {
+    text-decoration: none;
+    color: $wet-asphalt-color;
+    background: $biege-color;
+  }
+}
+
+footer {
+	text-align: center;
+	font-size: 14px;
+	color: $foo-color;
+}
