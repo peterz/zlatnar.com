@@ -6,14 +6,14 @@ $biege-color: #fdf0ee;
 $text-color: #f1eeee;
 
 body {
- 	background: $nephritis-color;
- 	font-family: "proxima-nova", sans-serif;
- 	font-weight: 100;
- 	font-style: normal;
- 	font-size: 20px;
+  background: $nephritis-color;
+  font-family: "proxima-nova", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 20px;
  	
   color: $text-color;
- 	line-height: 1.3em;
+  line-height: 1.3em;
 }
 
 h1 {
@@ -35,8 +35,8 @@ h2 {
 }
 
 section {
-	max-width: 640px;
-	margin: 0 auto;	
+  max-width: 640px;
+  margin: 0 auto;	
 }
 
 #title {
@@ -47,8 +47,8 @@ section {
 }
 
 #description {
-	padding: 1.5em;
-	margin-bottom: 4em;
+  padding: 1.5em;
+  margin-bottom: 4em;
 
   a {
     color: $wet-asphalt-color;
@@ -84,18 +84,17 @@ ul.apps {
   }
 
   a {
-  	text-decoration: none;
-  	color: $biege-color;
+    text-decoration: none;
+    color: $biege-color;
 
-  	span {
-    	display: block;
+    span {
+      display: block;
 
-    	@media all and (max-width: 660px) {
-      		font-size: 0.8em;
-    	}
-  	}	  	
+      @media all and (max-width: 660px) {
+        font-size: 0.8em;
+      }
+    }	  	
   }
-
 }
 
 a.hire {
@@ -118,7 +117,7 @@ a.hire {
 }
 
 footer {
-	text-align: center;
-	font-size: 14px;
-	color: $text-color;
+  text-align: center;
+  font-size: 14px;
+  color: $text-color;
 }
