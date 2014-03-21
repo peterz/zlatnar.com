@@ -1,20 +1,18 @@
 @import "components/reset";
 
-$turquoise-color: #1abc9c;
+$nephritis-color: #27ae60;
 $wet-asphalt-color: #34495e;
-$green-sea-color: #16a085;
 $biege-color: #fdf0ee;
-$foo-color: #f1eeee;
-$asbestos-color: #7f8c8d;
+$text-color: #f1eeee;
 
 body {
- 	background: $green-sea-color;
+ 	background: $nephritis-color;
  	font-family: "proxima-nova", sans-serif;
  	font-weight: 100;
  	font-style: normal;
  	font-size: 20px;
  	
-  color: $foo-color;
+  color: $text-color;
  	line-height: 1.3em;
 }
 
@@ -122,5 +120,5 @@ a.hire {
 footer {
 	text-align: center;
 	font-size: 14px;
-	color: $foo-color;
+	color: $text-color;
 }
