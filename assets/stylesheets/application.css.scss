@@ -66,10 +66,10 @@ ul.apps {
   li {
     width: 32%;
     display: inline-block;
+    margin-bottom: 2em;
 
     @media all and (max-width: 660px) {
       width: 49%;
-      margin-bottom: 2em;
 
       &:last {
         margin-bottom: 0;
